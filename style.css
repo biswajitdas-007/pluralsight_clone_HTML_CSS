@@ -1,3 +1,5 @@
+/* footer css */
+
 * {
   font-family: "Secular One", sans-serif;
 }
@@ -16,7 +18,6 @@
 
 #impact_books > div h2,
 .insights > div h2 {
-  /* border: 1px solid whitesmoke; */
   color: white;
   padding: 0px;
   margin: 0px;
@@ -29,7 +30,6 @@
   margin-top: 20px;
 }
 .desc {
-  /* border: 1px solid whitesmoke; */
   margin: 0px;
   padding: 0px;
   width: 50%;
@@ -38,9 +38,6 @@
   box-sizing: inherit;
   padding: 0px;
   margin: 0px;
-  /* height: 100%; */
-  /* height: 50px; */
-  /* border: 1px solid whitesmoke; */
 }
 #impact_books > div p {
   padding: 0px;
@@ -54,8 +51,6 @@
 }
 .button {
   margin-bottom: 50px;
-
-  /* margin: 0px 0px 60px 0px; */
   margin-left: 2.5%;
   font-family: "Secular One", sans-serif;
 }
@@ -70,12 +65,10 @@
   padding: 18px 34px;
   letter-spacing: 0.5px;
   cursor: pointer;
-  /* margin-top: 0px; */
 }
 .button2 {
   color: white;
   cursor: pointer;
-  /* border: 1px solid white; */
   background-color: transparent;
   padding: 18px 34px;
   letter-spacing: 0.5px;
@@ -91,7 +84,6 @@
 }
 .insights > .desc {
   margin-right: 30%;
-  /* border: 1px solid whitesmoke; */
 }
 .insights > div {
   margin: 40px 0px 0px 0px;
@@ -105,22 +97,16 @@
   background-color: #222222;
   display: flex;
   flex-direction: row;
-  /* place-items: center; */
   color: whitesmoke;
-  /* border: 2px solid red; */
 }
 .footer-container > div {
   margin: 5% 5% 0px 5%;
-  /* width: 110px; */
-  /* border: 2px solid red; */
 }
 .footer-head {
   font-size: 13px;
   font-weight: 700;
 }
 .footer-head + div {
-  /* border: 2px solid green; */
-
   width: 150px;
   margin-top: 30px;
   margin-bottom: 50px;
@@ -181,4 +167,240 @@ a > img {
 .connect a {
   text-decoration: none;
   color: #e6e6e6;
+}
+
+/* signin page */
+
+#main-container {
+  display: flex;
+  flex-direction: row;
+  box-sizing: inherit;
+}
+
+#left-side {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  background-color: #0d0f12;
+  height: 100vh;
+}
+
+.signin {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex: auto;
+  justify-content: center;
+  box-sizing: inherit;
+}
+.signin > div > img {
+  width: 303px;
+}
+.signin-form {
+  margin-top: 30px;
+  color: white;
+  width: 60%;
+}
+.signin-form > div input {
+  display: flex;
+  background-color: #0d0f12;
+  border: 1px solid hsla(0, 0%, 100%, 0.3);
+  width: 100%;
+  color: white;
+  font-size: 20px;
+  height: 40px;
+  margin-top: 10px;
+  margin-bottom: 24px;
+}
+.signin-form > div {
+  margin-top: 40px;
+}
+.signin-form > div > label {
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.btn1-signin {
+  width: 100%;
+  color: #f2f8fb;
+  background: #0074ab;
+  margin-top: 30px;
+  font-size: 16px;
+  height: 40px;
+  border: 0;
+  border-radius: 3px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.signin-links {
+  margin-top: 30px;
+}
+.signin-links a {
+  color: #2ea0d6;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 30px;
+  text-decoration: none;
+}
+.signin-links > a:hover {
+  color: #0b73a3;
+  text-decoration: underline;
+}
+.bar {
+  width: 360px;
+  margin-top: 30px;
+  background-color: #313335;
+  height: 2px;
+  border: 0px;
+  padding: 0;
+}
+footer {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  color: #a1a1a3;
+  line-height: 1.7;
+  letter-spacing: 0.035em;
+  font-size: 12px;
+  margin-bottom: 15px;
+}
+footer > div a {
+  color: #a1a1a3;
+  margin: 8px;
+}
+.btn2-signin {
+  width: 60%;
+  height: 40px;
+  border: 0;
+  color: #f4f4f5;
+  cursor: pointer;
+  margin-top: 20px;
+  font-size: 16px;
+  border-radius: 3px;
+  background-color: #2d3138 !important;
+}
+#right-side {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  width: 60%;
+  background-image: url(https://www.pluralsight.com/content/dam/pluralsight2/login/bg-gtm-2020.png);
+  background-color: black;
+  background-position: right top;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#left-side-up-img {
+  margin: 0px;
+  padding: 0px;
+  top: 0px;
+  margin-bottom: 150px;
+}
+#left-side-up-img > img {
+  display: flex;
+  max-width: 100%;
+  margin: 0px;
+  padding: 90px;
+  padding-bottom: 40px;
+  align-self: inherit;
+}
+#right-side-down-img {
+  position: absolute;
+  right: 40px;
+  bottom: 40px;
+  text-align: center;
+}
+
+#right-side-down-img > img {
+  max-width: 150px;
+}
+
+#try-for-free {
+  margin-bottom: 0%;
+  margin-right: 40%;
+  padding: 12px 80px;
+  min-width: unset;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 2px;
+  background: linear-gradient(to right, #f05a28, #ec008c, #f05a28);
+  color: #fff;
+  text-decoration: none;
+}
+
+/* forgotPassword */
+
+#forgot-password {
+  color: hsla(0, 0%, 100%, 0.95);
+  margin-top: 0px;
+  width: 23%;
+  margin-left: 40%;
+  letter-spacing: 0.025em;
+}
+#forgot-password > div > h1 {
+  font-weight: 200;
+  font-size: 2.75rem;
+  line-height: 1.4;
+  margin-bottom: 40px;
+  letter-spacing: 0.025em;
+  font-family: Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
+}
+#forgot-password > div > p {
+  line-height: 1.4;
+  letter-spacing: 0.025em;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  text-align: left;
+}
+#forgot-passwd-image {
+  height: 80px;
+  margin-top: 10%;
+  font-size: 14px;
+  margin-bottom: 60px;
+}
+#forgot-passwd-div > input {
+  width: 300px;
+  border-radius: 3px;
+}
+#forgot-container {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 80px;
+}
+#forgot-passwd-div > label {
+  display: flex;
+  color: hsla(0, 0%, 100%, 0.95);
+  padding-bottom: 0px;
+  font-size: 16px;
+  margin: 0px;
+  text-align: left !important;
+}
+#forgot-passwd-div > button {
+  width: 310px;
+  background: #006395;
+  font-family: Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
+  cursor: pointer;
+  color: hsla(0, 0%, 100%, 0.95);
+  font-size: 16px;
+  font-weight: 500;
+  border: 0;
+  margin-bottom: 0px;
+  border-radius: 3px;
+  letter-spacing: 0.01em;
+  padding: 10px 16px;
+  height: 40px;
+}
+#forgot-passwd-div > button:hover {
+  background-color: #084d70;
+}
+#forgot-passwd-form {
+  margin-top: 0px !important;
 }
