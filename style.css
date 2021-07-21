@@ -1,0 +1,184 @@
+* {
+  font-family: "Secular One", sans-serif;
+}
+.main-container {
+  background-color: black;
+}
+#impact_books {
+  background-color: black;
+  margin: 0px;
+  background-size: cover;
+  padding: 20px;
+  background-image: url(https://www.pluralsight.com/content/pluralsight/en/jcr:content/main/generic_block_1609496607/image-res.img.52d84a6d-28f9-4da3-929e-9f14b44c023c.jpg);
+  background-position: right center;
+  background-repeat: no-repeat;
+}
+
+#impact_books > div h2,
+.insights > div h2 {
+  /* border: 1px solid whitesmoke; */
+  color: white;
+  padding: 0px;
+  margin: 0px;
+  font-family: "Secular One", sans-serif;
+  /* font-weight: 100 ; */
+  font-size: 40px;
+  margin-left: 5%;
+}
+.img-container {
+  margin-top: 20px;
+}
+.desc {
+  /* border: 1px solid whitesmoke; */
+  margin: 0px;
+  padding: 0px;
+  width: 50%;
+}
+#impact_books > div > img {
+  box-sizing: inherit;
+  padding: 0px;
+  margin: 0px;
+  /* height: 100%; */
+  /* height: 50px; */
+  /* border: 1px solid whitesmoke; */
+}
+#impact_books > div p {
+  padding: 0px;
+  line-height: 1.4;
+  letter-spacing: normal;
+  margin-bottom: 20px;
+  color: whitesmoke;
+
+  margin-left: 5%;
+  font-size: 17px;
+}
+.button {
+  margin-bottom: 50px;
+
+  /* margin: 0px 0px 60px 0px; */
+  margin-left: 2.5%;
+  font-family: "Secular One", sans-serif;
+}
+.button1 {
+  color: white;
+  background: linear-gradient(145deg, #f05a28 0, #ec008c 100%);
+  margin: 0px 20px 20px 0px;
+  border: 0px;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 18px 34px;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  /* margin-top: 0px; */
+}
+.button2 {
+  color: white;
+  cursor: pointer;
+  /* border: 1px solid white; */
+  background-color: transparent;
+  padding: 18px 34px;
+  letter-spacing: 0.5px;
+  margin: 0px 20px 20px 0px;
+  border-radius: 5px;
+  font-weight: 600;
+}
+.insights {
+  background-color: #181818;
+  display: flex;
+  color: white;
+  padding: 60px;
+}
+.insights > .desc {
+  margin-right: 30%;
+  /* border: 1px solid whitesmoke; */
+}
+.insights > div {
+  margin: 40px 0px 0px 0px;
+  padding: 0px;
+}
+.footer {
+  background-color: #222222;
+  padding-bottom: 50px;
+}
+.footer-container {
+  background-color: #222222;
+  display: flex;
+  flex-direction: row;
+  /* place-items: center; */
+  color: whitesmoke;
+  /* border: 2px solid red; */
+}
+.footer-container > div {
+  margin: 5% 5% 0px 5%;
+  /* width: 110px; */
+  /* border: 2px solid red; */
+}
+.footer-head {
+  font-size: 13px;
+  font-weight: 700;
+}
+.footer-head + div {
+  /* border: 2px solid green; */
+
+  width: 150px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.footer-container > div div a {
+  letter-spacing: normal;
+  font-size: 14px;
+  line-height: 40px;
+  padding: 20px 0;
+  color: #7c7c7d;
+  text-decoration: none;
+}
+.footer-container > div div a:hover {
+  color: white;
+}
+a > img {
+  height: 34px;
+  width: 34px;
+}
+.footer-last-div {
+  display: flex;
+  font-size: 12px;
+  flex-direction: row;
+  background-color: #222222;
+  margin: 0px;
+  padding: 0px;
+  justify-content: space-around;
+  border-top: 1px solid #363636;
+}
+.footer-last-div {
+  padding-top: 40px;
+}
+.connect > #terms-of-use,
+.connect > #privacy-policy {
+  margin-right: 40px;
+}
+.connect > span > a img {
+  height: 15px;
+  margin-top: 30px;
+}
+.copyright-content {
+  display: flex;
+  margin: 30px 0px 0px 0px;
+}
+.copyright-content > span > a img {
+  height: 34px;
+  width: 34px;
+}
+.copyright-content > div {
+  margin-top: 10px;
+}
+.copyright-content > div > span {
+  margin: 0px;
+  margin-top: 0px;
+  margin-left: 30px;
+  color: #7c7c7d;
+}
+.connect a {
+  text-decoration: none;
+  color: #e6e6e6;
+}
