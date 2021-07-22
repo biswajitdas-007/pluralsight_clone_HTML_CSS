@@ -3,6 +3,9 @@
 * {
   font-family: "Secular One", sans-serif;
 }
+body {
+  background-color: black;
+}
 .main-container {
   background-color: black;
 }
@@ -181,7 +184,7 @@ a > img {
   display: flex;
   flex-direction: column;
   width: 40%;
-  background-color: #0d0f12;
+  background-color: #0d0f12 !important;
   height: 100vh;
 }
 
@@ -251,7 +254,7 @@ a > img {
 .bar {
   width: 360px;
   margin-top: 30px;
-  background-color: #313335;
+  background-color: #313335 !important;
   height: 2px;
   border: 0px;
   padding: 0;
@@ -289,14 +292,13 @@ footer > div a {
   height: 100vh;
   width: 60%;
   background-image: url(https://www.pluralsight.com/content/dam/pluralsight2/login/bg-gtm-2020.png);
-  background-color: black;
   background-position: right top;
   background-size: contain;
   background-repeat: no-repeat;
 }
 
 #left-side-up-img {
-  margin: 0px;
+  margin: 120px 0px 0px 80px;
   padding: 0px;
   top: 0px;
   margin-bottom: 150px;
@@ -305,7 +307,8 @@ footer > div a {
   display: flex;
   max-width: 100%;
   margin: 0px;
-  padding: 90px;
+  padding: 0px;
+  background: transparent;
   padding-bottom: 40px;
   align-self: inherit;
 }
@@ -403,4 +406,21 @@ footer > div a {
 }
 #forgot-passwd-form {
   margin-top: 0px !important;
+}
+#forgot-passwd-div > p {
+  /* border: 2px solid red; */
+  color: hsla(0, 0%, 100%, 0.95);
+  width: 250px;
+  line-height: 1.6;
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 1rem;
+  letter-spacing: 0.025em;
+}
+#forgot-passwd-div > p > a {
+  letter-spacing: 0.025em;
+  font-family: inherit;
+  font-size: 1rem;
+  color: #2ea0d6;
+  text-decoration: none;
 }
