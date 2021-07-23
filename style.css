@@ -12,8 +12,16 @@ body {
   background-image: url(https://www.pluralsight.com/content/pluralsight/en/jcr:content/main/generic_block_copy_c_1058486430/image-res.img.3716d16d-f7af-4e66-9052-9a1a90108cf3.jpg);
   width: 100%;
   height: 500px;
+  /* margin-top: 80px; */
   background-position: center center;
   background-size: cover;
+}
+#margin {
+  background-color: white;
+  height: 43px;
+  width: 100%;
+  margin-top: 80px;
+  /* display: none; */
 }
 #h_box_1 {
   height: 64%;
@@ -52,6 +60,7 @@ body {
   font-weight: bold;
   background: repeat;
   float: left;
+  transition: 6.9s;
   margin-left: 1px;
   font-family: "Noto Sans JP", sans-serif;
 }
@@ -107,8 +116,8 @@ body {
   color: black;
   margin-bottom: 4px;
   float: left;
-  margin-top: 7px;
   font-size: 15px;
+  height: 20%;
 }
 #margin > p + p {
   background-color: rgb(255, 255, 255);
@@ -116,7 +125,7 @@ body {
   margin-bottom: 4px;
   margin-left: 2px;
   float: left;
-  margin-top: 7px;
+
   font-size: 15px;
   font-weight: bold;
 }
@@ -125,22 +134,19 @@ body {
 }
 #nav_bar {
   padding-top: 14px;
-  height: 60px;
+  height: 80px;
   width: 100%;
   background-color: #212121;
+  position: fixed;
 }
 
-#margin {
-  background-color: white;
-  height: 35px;
-  width: 100%;
-}
 #left_nav_bar {
   width: 15%;
-  margin-left: 5%;
+  margin-left: 3%;
   height: 70%;
   background: repeat;
   float: left;
+  margin-right: 10px;
 }
 #left_nav_bar img {
   border-radius: 50%;
@@ -154,10 +160,10 @@ body {
   width: 70%;
   height: 70%;
   float: left;
-  color: rgb(216, 216, 216);
+  color: rgb(233, 233, 233);
   font-family: sans-serif;
   font-weight: bold;
-  font-size: 12px;
+  font-size: 14px;
   letter-spacing: 3px;
   background: repeat;
 }
@@ -189,7 +195,7 @@ body {
 } */
 #resources {
   float: right;
-  margin-top: 2px;
+  margin-top: 6px;
   padding-bottom: 5px;
   font-size: 13px;
   margin-right: 16px;
@@ -197,7 +203,7 @@ body {
 #product,
 #platform {
   float: right;
-  margin-top: 2px;
+  margin-top: 6px;
   padding-bottom: 5px;
   font-size: 13px;
   margin-right: 30px;
@@ -361,18 +367,19 @@ body {
   margin-left: 25px;
   padding-top: 25px;
   font-family: "Roboto", sans-serif;
-  font-size: 15px;
+  font-size: 17px;
 }
 h3 {
   color: #ffffff;
   font: bold;
   margin-left: 25px;
-  font-size: 32px;
+  font-size: 31px;
   font-family: sans-serif;
 }
 .largeMid {
   display: flex;
   max-width: 1400px;
+  overflow: hidden;
 }
 .mdiv1 {
   background-color: rgb(34, 34, 34);
@@ -380,6 +387,7 @@ h3 {
   border-radius: 10px 0px 0px 10px;
   margin-left: 20px;
   height: 463px;
+  overflow: hidden;
 }
 .mdiv2 {
   width: 45%;
@@ -401,13 +409,14 @@ h3 {
   margin: 4%;
   background-color: rgb(34, 34, 34);
   border-radius: 20px;
+  overflow: hidden;
 }
 .colImg {
   margin-top: 50px;
   margin-left: 40px;
   float: left;
 }
-div > h1 {
+div > h2 {
   display: flex;
   justify-content: center;
   color: white;
@@ -416,7 +425,7 @@ div > h1 {
 }
 .colImg > p {
   color: white;
-  font-size: larger;
+  font-size: 16px;
   font-family: sans-serif;
   padding: 1%;
 }
@@ -430,6 +439,7 @@ div > h1 {
   margin-top: 20px;
   background-color: black;
   height: auto;
+  overflow: hidden;
 }
 .text > h5 {
   color: #e40084;
@@ -450,6 +460,7 @@ div > h1 {
   margin: 3%;
   justify-content: center;
   border-radius: 20px;
+  overflow: hidden;
 }
 .img_slide > a > img {
   height: 100%;
@@ -462,12 +473,14 @@ div > h1 {
   padding-right: 10%;
   font-family: sans-serif;
   line-height: 150%;
+  font-size: 16px;
+  font-weight: bold;
 }
 .colomn p {
   margin-bottom: 100px;
   margin-left: 10px;
   color: white;
-  font-size: 18px;
+  font-size: 17px;
   font-family: "Roboto", sans-serif;
   line-height: 25px;
   text-align: start;
@@ -954,4 +967,30 @@ footer > div a {
   font-size: 1rem;
   color: #2ea0d6;
   text-decoration: none;
+}
+
+.carousel-cell {
+  width: 28%;
+  height: 230px;
+}
+.twitter-tweet {
+  width: 90% !important;
+}
+
+.carousel-cell:before {
+  display: block;
+}
+#upper_twitter p {
+  text-align: center;
+  color: #e40084 !important;
+  font-weight: bolder;
+  margin-top: 40px;
+}
+#upper_twitter h3 {
+  text-align: center;
+  color: white;
+  font-weight: bolder;
+  font-size: 30px;
+  margin-top: 10px;
+  margin-bottom: 60px;
 }
