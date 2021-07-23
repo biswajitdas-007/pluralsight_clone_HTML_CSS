@@ -781,6 +781,7 @@ footer > div a {
   color: #2ea0d6;
   text-decoration: none;
 }
+/*css for free_trial.html*/
 #free-trial-body {
   background-color: #181818;
 }
@@ -857,6 +858,10 @@ footer > div a {
   display: flex;
   flex-direction: row;
 }
+#plan-details {
+  padding-bottom: 30px;
+  margin-bottom: 50px;
+}
 .plan-div {
   width: 40%;
 
@@ -929,6 +934,7 @@ footer > div a {
   background-image: url(https://www.pluralsight.com/content/dam/pluralsight2/product/v2/skills-bg-cs.jpg);
   clear: both;
   text-align: center;
+  padding-bottom: 100px;
 }
 #partners > div > h3 {
   font-size: 42px;
@@ -937,4 +943,69 @@ footer > div a {
 }
 #partners > div > div > img {
   margin-left: 80px;
+}
+#customer-review {
+  margin-top: 70px;
+}
+#customer-review > a {
+  text-decoration: none;
+  font-weight: 1000;
+}
+#customer-review > a > span {
+  margin-left: 5px;
+  color: #ec008c;
+}
+.price-table {
+  clear: both;
+  margin-top: 30px;
+}
+.price-table > table > tbody > tr > td:first-child,
+.price-table > table > thead > tr > td:first-child {
+  width: 39%;
+  padding: 10px;
+  padding-left: 20px;
+
+  font-size: 15px;
+  text-align: left;
+}
+.price-table > table > tbody > tr > td:first-child > h4 {
+  font-weight: 300;
+}
+.price-table > table > tbody > tr > td {
+  text-align: center;
+  width: 210px;
+  /* font-weight: 2000; */
+  font-size: 15px;
+  /* border-bottom: 1px solid #363636; */
+  border-right: 1px solid #363636;
+}
+.price-table > table > thead > tr > td {
+  text-align: center;
+}
+.price-table > table > thead > tr > td > h4 {
+  color: #006395;
+  font-size: 17px;
+}
+.price-table > table > tbody > tr > td > h4,
+.price-table > table > thead > tr > td > h4 {
+  margin: 0;
+  padding: 0;
+}
+.price-table > table > tbody > tr > td > p {
+  font-size: 25px;
+}
+.price-table > table > thead > tr > td > p {
+  font-size: 28px;
+  font-weight: 200;
+  margin: 0;
+  padding: 10px;
+}
+.price-table > table > tbody > tr > td:last-child {
+  width: 250px !important;
+}
+.price-table > table > tbody > tr:nth-child(2n) {
+  background-color: #1c1c1a;
+}
+tr > td > img {
+  height: 20px;
 }
