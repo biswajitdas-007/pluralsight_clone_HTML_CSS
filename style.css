@@ -969,6 +969,235 @@ footer > div a {
   text-decoration: none;
 }
 
+/*css for free_trial.html*/
+#free-trial-body {
+  background-color: #181818;
+}
+.top-header {
+  background-image: url(https://www.pluralsight.com/content/pluralsight/en/pricing/free-trial/jcr:content/main/generic_block/image-res.img.2cd105ce-90cf-442a-a2bc-2e1f406a7e2e.jpg);
+  background-size: cover;
+  text-align: center;
+  font-family: inherit;
+  padding: 20px;
+  padding-bottom: 30px;
+}
+.top-header h6 {
+  font-size: 15px;
+  letter-spacing: 1px;
+  color: #e40084;
+}
+#top-h6 {
+  margin-top: 50px;
+}
+.top-header h1 {
+  font-size: 56px;
+  line-height: 100%;
+}
+.top-header > div > p {
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: normal;
+}
+.top-header + div {
+  text-align: center;
+}
+.top-header + div > h3 {
+  font-size: 20px;
+}
+.body-container {
+  margin-top: 100px;
+  height: 100%;
+}
+.trial-includes-container {
+  display: flex;
+  flex-direction: row;
+  /* margin-top: 40px; */
+  margin-bottom: 50px;
+}
+.trial-includes-container > div {
+  width: 100%;
+  margin: 20px 20px 0px 20px;
+}
+.trial-includes {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 0px;
+}
+.trial-includes > img {
+  max-height: 30px;
+  margin-top: 15px;
+  margin-right: 10px;
+  margin-bottom: 0px;
+}
+.trial-includes > div > p {
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: left;
+}
+.trial-details > p > span {
+  margin-top: 15px;
+  color: #e80a89;
+  text-align: left;
+}
+.trial-details > p {
+  text-align: left;
+}
+.subscription-details {
+  display: flex;
+  flex-direction: row;
+}
+#plan-details {
+  padding-bottom: 30px;
+  margin-bottom: 50px;
+}
+.plan-div {
+  width: 40%;
+
+  float: left;
+  line-height: 1.5;
+  text-align: center;
+  padding: 30px 20px;
+  background: linear-gradient(180deg, #181818 0%, #222222 100%);
+  margin-left: 5px;
+  text-align: center;
+  background-color: #1b1b1b;
+}
+#subscription-details:first-child {
+  overflow: hidden;
+  box-shadow: 4px 9px 4px 6px rgba(0, 0, 0, 0.2);
+}
+.plan-div:first-child {
+  margin-left: 7%;
+  margin-top: 40px;
+}
+.plan-div > h1 {
+  font-size: 36px;
+  line-height: 1.4;
+  margin: 0px;
+  padding: 0px;
+}
+.plan-div > p {
+  text-align: center;
+  font-size: 17px;
+  padding: 0 12%;
+  margin-bottom: 40px;
+}
+.plan-div > div > a {
+  text-decoration: none;
+  font-weight: 1000;
+  max-width: 100%;
+  background-size: 300% 100%;
+  background-image: linear-gradient(to right, #f05a28, #ec008c, #f05a28);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+  background: linear-gradient(145deg, #f05a28 0, #ec008c 100%);
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  padding: 18px 34px;
+}
+.plan-div > div > h6 {
+  font-size: 14px;
+  line-height: 1.4;
+  margin-top: 40px;
+}
+#opportunity {
+  margin-right: 7%;
+  height: 40px;
+  width: 43%;
+  text-align: right;
+
+  background-color: #f7a614;
+  text-align: center;
+  float: right;
+}
+#opportunity > div > h4 {
+  font-weight: 2000;
+  color: black;
+  margin: 13px 0px 0px 0px;
+}
+#plan-details {
+  margin-top: 90px;
+  height: 100%;
+}
+#partners {
+  background-image: url(https://www.pluralsight.com/content/dam/pluralsight2/product/v2/skills-bg-cs.jpg);
+  clear: both;
+  text-align: center;
+  padding-bottom: 100px;
+}
+#partners > div > h3 {
+  font-size: 42px;
+  text-align: center;
+  line-height: 100%;
+}
+#partners > div > div > img {
+  margin-left: 80px;
+}
+#customer-review {
+  margin-top: 70px;
+}
+#customer-review > a {
+  text-decoration: none;
+  font-weight: 1000;
+}
+#customer-review > a > span {
+  margin-left: 5px;
+  color: #ec008c;
+}
+.price-table {
+  clear: both;
+  margin-top: 30px;
+}
+.price-table > table > tbody > tr > td:first-child,
+.price-table > table > thead > tr > td:first-child {
+  width: 39%;
+  padding: 10px;
+  padding-left: 20px;
+
+  font-size: 15px;
+  text-align: left;
+}
+.price-table > table > tbody > tr > td:first-child > h4 {
+  font-weight: 300;
+}
+.price-table > table > tbody > tr > td {
+  text-align: center;
+  width: 210px;
+  /* font-weight: 2000; */
+  font-size: 15px;
+  /* border-bottom: 1px solid #363636; */
+  border-right: 1px solid #363636;
+}
+.price-table > table > thead > tr > td {
+  text-align: center;
+}
+.price-table > table > thead > tr > td > h4 {
+  color: #006395;
+  font-size: 17px;
+}
+.price-table > table > tbody > tr > td > h4,
+.price-table > table > thead > tr > td > h4 {
+  margin: 0;
+  padding: 0;
+}
+.price-table > table > tbody > tr > td > p {
+  font-size: 25px;
+}
+.price-table > table > thead > tr > td > p {
+  font-size: 28px;
+  font-weight: 200;
+  margin: 0;
+  padding: 10px;
+}
+.price-table > table > tbody > tr > td:last-child {
+  width: 250px !important;
+}
+.price-table > table > tbody > tr:nth-child(2n) {
+  background-color: #1c1c1a;
+}
+tr > td > img {
+  height: 20px;
+}
+
 .carousel-cell {
   width: 28%;
   height: 230px;
