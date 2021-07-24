@@ -402,3 +402,7 @@ function cut(id) {
   document.getElementById("body").style.position = "relative";
   document.getElementById(id).innerText = "expand_more";
 }
+
+function click_courses() {
+  window.location.href = "course.html";
+}
