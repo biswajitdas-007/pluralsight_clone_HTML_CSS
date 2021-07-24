@@ -86,10 +86,14 @@
             alert("Please fill the required fields!")
         }else{
 
-            if (terms_policy.checked) {
-                window.open('payment.html');
-            } else {
-                alert('You missed terms and conditions!')
+            if(email == confirm_email){
+                if (terms_policy.checked) {
+                    window.open('payment.html');
+                } else {
+                    alert('You missed terms and conditions!')
+                }
+            }else{
+                alert('Fill correct email!')
             }
 
         }
