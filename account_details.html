@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="back-to-pricing">
+        <a href="free_trial.html">
+            <h5>
+                < Back to pricing</h5>
+        </a>
+    </div>
+    <div id="payment-container">
+            
+        <div id="account-details">
+            
+            <div>
+                <div id="number">1</div>
+                <div id="about">
+                    <h3>Account details</h3>
+                </div>
+                <div>
+                    <div>
+                        <h6>Already have an account? <span><a href="signin.html">Sign in</a></span></h6>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div><p>Firstname*<br></p>
+                <input id="firstname" type="text" required></div>
+                <div class="right-input">
+                    <p>Lastname*<br></p>
+                    <input id="lastname" type="text">
+                </div>
+                
+            </div>
+            <div>
+                <div>
+                    <p>Email*<br></p>
+                    <input id="email" type="text" required>
+                </div>
+                <div class="right-input">
+                    <p>Confirm email*<br></p>
+                    <input id="confirm-email" type="text" required>
+                </div>
+            
+            </div>
+            <div>
+                <div id="select-residence">
+                    <p>Country of Residence*<br></p>
+                    <select name="" id="">
+                        <option value="">Afganistan</option>
+                    </select>
+                </div>
+                <div class="right-input">
+                    <p>Company name*<br></p>
+                    <input type="text">
+                </div>
+            
+            </div>
+            <hr>
+            <div>
+                <input id="terms-policy" type="checkbox"><span>By checking here and continuing, I agree to the <b>Pluralsight</b> <b style="color: #2EA1D6;">Terms of Use.</b></span>
+            </div>
+            <div>
+                <button onclick="check()">Continue</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+<script>
+    function check(){
+        var terms_policy = document.getElementById('terms-policy');
+        var firstname = document.getElementById('firstname').value;
+        var lastname = document.getElementById('lastname').value;
+        var email = document.getElementById('email').value;
+        var confirm_email = document.getElementById('confirm-email').value;
+
+        if(firstname == '' || lastname == '' || email==''||confirm_email==''){
+            alert("Please fill the required fields!")
+        }else{
+
+            if(email == confirm_email){
+                if (terms_policy.checked) {
+                    window.open('payment.html');
+                } else {
+                    alert('You missed terms and conditions!')
+                }
+            }else{
+                alert('Fill correct email!')
+            }
+
+        }
+        
+        
+    }
+</script>
