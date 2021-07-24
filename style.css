@@ -22,7 +22,6 @@ body {
   width: 100%;
   margin-top: 80px;
   display: none;
-}
   background-position: center center;
   background-size: cover;
 }
@@ -216,7 +215,6 @@ body {
 #resources {
   float: right;
   margin-top: 6px;
-#resources {
   float: right;
   margin-top: 2px;
   padding-bottom: 5px;
@@ -634,7 +632,7 @@ body {
   border-radius: 5px;
   font-size: 15px;
   font-weight: 600;
-  padding: 18px 34px;
+  padding: 18px 32px;
   letter-spacing: 0.5px;
   cursor: pointer;
 }
@@ -646,6 +644,7 @@ body {
   letter-spacing: 0.5px;
   margin: 0px 20px 20px 0px;
   border-radius: 5px;
+  border: 1px solid grey;
   font-weight: 600;
 }
 .insights {
@@ -1430,6 +1429,7 @@ tr > td > img {
 #nav_down_1_left_down li {
   font-weight: bold;
   font-size: 20px;
+}
 #payment-container {
   display: flex;
 
