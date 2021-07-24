@@ -1125,19 +1125,17 @@ footer > div a {
   margin-top: 40px;
 }
 #opportunity {
-  margin-right: 7%;
-  height: 40px;
-  width: 43%;
-  text-align: right;
-
-  background-color: #f7a614;
-  text-align: center;
+  margin-right: 13% !important;
+  height: 40px !important;
+  width: 40% !important;
+  background-color: #f7a614 !important;
+  text-align: center !important;
   float: right;
 }
 #opportunity > div > h4 {
-  font-weight: 2000;
+  font-weight: 800 !important;
   color: black;
-  margin: 13px 0px 0px 0px;
+  margin: 8px 0px 0px 0px !important;
 }
 #plan-details {
   margin-top: 90px;
@@ -1454,16 +1452,16 @@ tr > td > img {
   padding-right: 30px;
 }
 #number {
-  margin-top: 15px;
+  margin-top: 30px;
   height: 20px;
   width: 20px;
   border-radius: 100%;
   text-align: center;
-  padding: 5px;
+  padding: 10px;
   background-color: #363636;
 }
 #about {
-  margin-left: 10px;
+  margin-left: 0px;
   margin-right: 130px;
 }
 #account-details > div {
@@ -1482,7 +1480,8 @@ tr > td > img {
   background-color: #363636;
 }
 #account-details > div > div > div > h6 {
-  margin-left: 160px;
+  margin-left: 70px;
+  margin-top: 40px;
 }
 #account-details > div > div > div > h6 > span > a {
   color: #2ea1d6;
