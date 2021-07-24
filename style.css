@@ -1093,7 +1093,6 @@ footer > div a {
 }
 .plan-div:first-child {
   margin-left: 7%;
-  margin-top: 4.9%;
 }
 .plan-div > h1 {
   font-size: 36px;
@@ -1124,7 +1123,7 @@ footer > div a {
   line-height: 1.4;
   margin-top: 40px;
 }
-#opportunity {
+.opportunity {
   margin-right: 13% !important;
   height: 40px !important;
   width: 40% !important;
@@ -1132,7 +1131,7 @@ footer > div a {
   text-align: center !important;
   float: right;
 }
-#opportunity > div > h4 {
+.opportunity > div > h4 {
   font-weight: 800 !important;
   color: black;
   margin: 8px 0px 0px 0px !important;
