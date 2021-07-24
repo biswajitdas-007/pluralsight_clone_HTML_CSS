@@ -1010,3 +1010,151 @@ footer > div a {
 tr > td > img {
   height: 20px;
 }
+
+#payment-container {
+  display: flex;
+
+  flex-direction: row;
+}
+#account-details {
+  padding-bottom: 30px;
+  margin-top: 0;
+  padding-top: 0 !important;
+}
+#account-details,
+#order-summary {
+  /* display: flex;
+  flex-direction: row; */
+  background-color: #222323;
+  margin-left: 25%;
+}
+#account-details > div {
+  display: flex;
+  flex-direction: row;
+  margin-left: 30px;
+  padding-right: 30px;
+}
+#number {
+  margin-top: 15px;
+  height: 20px;
+  width: 20px;
+  border-radius: 100%;
+  text-align: center;
+  padding: 5px;
+  background-color: #363636;
+}
+#about {
+  margin-left: 10px;
+  margin-right: 130px;
+}
+#account-details > div {
+  margin-top: 20px;
+}
+#account-details > div > div > p {
+  margin: 0px 0px 5px 0px;
+  padding: 0;
+  font-size: 15px;
+}
+#account-details > div > div > input {
+  border-radius: 3px;
+  width: 300px;
+  height: 40px;
+  border: 0;
+  background-color: #363636;
+}
+#account-details > div > div > div > h6 {
+  margin-left: 160px;
+}
+#account-details > div > div > div > h6 > span > a {
+  color: #2ea1d6;
+  text-decoration: none;
+}
+#account-details > div > div > select {
+  border: 0;
+  border-radius: 3px;
+  height: 40px;
+  background-color: #363636;
+  width: 100%;
+}
+#account-details > div > span {
+  margin-top: 4px;
+  margin-left: 8px;
+  font-size: 10px;
+}
+#select-residence {
+  width: 300px;
+}
+.right-input {
+  margin-left: 60px;
+}
+#account-details > div > button {
+  text-decoration: none;
+  border: 0px;
+  width: 150px;
+  text-align: center;
+  cursor: pointer;
+  height: 50px;
+  border-radius: 3px;
+  background-color: #1c84bd;
+}
+#payment-container {
+  padding-bottom: 40px;
+}
+#account-details > p {
+  margin-left: 35px;
+}
+#account-details > div > div > img {
+  height: 50px;
+  width: 50px;
+}
+#payment-card-img {
+  margin-left: 57%;
+}
+
+/* payment page */
+#account-details > div > div > span > select {
+  width: 145px;
+  border-radius: 3px;
+  height: 40px;
+  border: 0px;
+  background-color: #363636;
+}
+#account-details > div > div > span > select > option:first-child {
+  font-family: 70px;
+}
+
+/* success payment */
+
+#animation {
+  margin-left: 28%;
+}
+#animation + div {
+  text-align: center;
+}
+#animation + div > a {
+  text-decoration: none;
+  color: #ec008c;
+  font-weight: 1000;
+  font-size: 15px;
+}
+#animation + div:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+#back-to-pricing {
+  height: 100%;
+  width: 200px;
+  margin-top: 8%;
+  text-align: left;
+  margin-left: 25%;
+}
+#back-to-pricing > a {
+  text-decoration: none;
+}
+#back-to-pricing > a > h5 {
+  color: #2ea0d6;
+}
+#back-to-pricing > a > h5:hover {
+  transform: scale(1.1);
+}
