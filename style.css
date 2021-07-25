@@ -1267,6 +1267,7 @@ tr > td > img {
   margin-left: 2%;
   display: none;
   position: absolute;
+  cursor: pointer;
   margin-top: 80px;
 }
 #nav_down_left {
@@ -1605,6 +1606,8 @@ tr > td > img {
   color: white;
   margin-top: 80px;
   font-family: sans-serif;
+  display: none;
+  cursor: pointer;
   position: absolute;
 }
 #nav_down_1_sign ul {
