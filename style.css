@@ -720,13 +720,17 @@ a > img {
 .footer-last-div {
   padding-top: 40px;
 }
+.connect {
+  margin-top: 34px;
+}
 .connect > #terms-of-use,
 .connect > #privacy-policy {
   margin-right: 40px;
+  /* margin-top: 40px; */
 }
 .connect > span > a img {
-  height: 15px;
-  margin-top: 30px;
+  height: 13px;
+  /* margin-top: 30px; */
 }
 .copyright-content {
   display: flex;
@@ -1193,7 +1197,8 @@ footer > div a {
   text-align: left;
 }
 .price-table > table > tbody > tr > td:first-child > h4 {
-  font-weight: 300;
+  font-weight: 100 !important;
+  font-size: 15px;
 }
 .price-table > table > tbody > tr > td {
   text-align: center;
@@ -1214,6 +1219,10 @@ footer > div a {
 .price-table > table > thead > tr > td > h4 {
   margin: 0;
   padding: 0;
+}
+.price-table > table > tbody > tr > td > h4 {
+  font-weight: 800;
+  font-size: 18px;
 }
 .price-table > table > tbody > tr > td > p {
   font-size: 25px;
