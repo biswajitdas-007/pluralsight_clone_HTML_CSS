@@ -137,27 +137,13 @@ body {
   text-decoration: underline;
 }
 #nav_bar {
-  padding-top: 16px;
-  height: 80px;
+  padding: 26px 0px;
+  height: 100px;
   width: 100%;
   background-color: #212121;
   position: fixed;
   box-shadow: 1px 1px 1px 1px #242424;
 }
-
-#left_nav_bar {
-  width: 15%;
-  margin-left: 3%;
-  height: 70%;
-  background: repeat;
-  float: left;
-  margin-right: 10px;
-  padding-top: 14px;
-  height: 60px;
-  width: 100%;
-  background-color: #212121;
-}
-
 #margin {
   background-color: white;
   height: 35px;
@@ -165,23 +151,28 @@ body {
 }
 #left_nav_bar {
   width: 15%;
-  margin-left: 5%;
+  /* margin-left: 5%; */
   height: 70%;
+  padding: 0;
+  margin: 0px 0px 0px 2%;
   background: repeat;
   float: left;
 }
 #left_nav_bar img {
   border-radius: 50%;
   width: 18%;
-  height: 80%;
+  /* height: 80%; */
   float: left;
 }
 #left_nav_bar div {
   margin-left: 4%;
-  margin-top: 2%;
+
   width: 70%;
-  height: 70%;
-  float: left;
+  /* float: left; */
+  padding: 0;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 5%;
   color: rgb(233, 233, 233);
   font-family: sans-serif;
   font-weight: bold;
@@ -240,9 +231,11 @@ body {
   cursor: pointer;
 }
 #right_nav_bar {
-  width: 30%;
-  height: 73%;
+  /* width: 30%;
+  height: 73%; */
   float: right;
+  padding: 0;
+  margin: 0;
 }
 #right_nav_bar > i {
   width: 3%;
@@ -265,9 +258,12 @@ body {
 .tryFree {
   border: white 1px solid;
   color: white;
-  width: 35%;
+  width: 160px;
   margin-left: 5px;
-  height: 70%;
+  margin-right: 15px;
+  font-weight: 600;
+  font-size: 13px;
+  height: 40px;
   margin-top: 10px;
   float: left;
 }
@@ -1607,13 +1603,12 @@ tr > td > img {
 /* nav down for sign */
 
 #nav_down_1_sign {
-  width: 40%;
   height: 100px;
-  margin-left: 55%;
-  background-color: rgb(34, 34, 34);
+  margin-left: 60%;
+  background-color: rgb(10, 9, 9);
   border-radius: 5px;
   color: white;
-  margin-top: 80px;
+  margin-top: 100px;
   font-family: sans-serif;
   display: none;
   cursor: pointer;
@@ -1630,11 +1625,13 @@ tr > td > img {
 #nav_down_1_sign li {
   font-size: 16px;
   margin-top: 9px;
-  /* font-weight: bold; */
 }
 #nav_down_1_left_sign {
-  width: 49%;
-  height: 100%;
+  width: 230px;
+  height: 120px;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding: 0px;
   float: left;
-  background-color: rgb(34, 34, 34);
+  background-color: rgb(10, 9, 9);
 }
