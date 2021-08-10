@@ -5,150 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <link rel="stylesheet" href="courses.css" />
-    <link rel="stylesheet" href="courses.css" />
+    <link rel="stylesheet" href="../css/courses.css" />
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
     />
   </head>
-  <style>
-    .bgImg {
-      background-image: url("https://pluralsight.imgix.net/course-images/audience/software-development.jpg?w=1078");
-      width: 100%;
-      height: 607px;
-      background-repeat: no-repeat;
-      background-blend-mode: luminosity;
-      background-size: cover;
-    }
-    .checked {
-      color: white;
-    }
-    .textPart h1 {
-      color: white;
-    }
-    .text-content {
-      font-weight: 200;
-      color: white;
-      font-size: 18px;
-      max-width: 75%;
-      overflow: hidden;
-      text-overflow: ellipsis;
-      display: -webkit-box;
-      -webkit-line-clamp: 3;
-      -webkit-box-orient: vertical;
-    }
-    .textPart {
-      margin-left: 20px;
-      padding: 100px;
-    }
-    .textPart > h1 {
-      font-size: 50px;
-      font-family: "Source Sans Pro", sans-serif;
-      line-height: 0.5;
-    }
-    .text-content {
-      color: #eeeeee;
-      font-size: 18px;
-      font-family: "Source Sans Pro", sans-serif;
-    }
-    .fButton > button {
-      height: 50px;
-      color: #eeeeee;
-      width: 300px;
-      float: left;
-      background-image: linear-gradient(to right, #f05a28, #ec008c, #f05a28);
-      margin-left: 120px;
-      border: none;
-      border-radius: 3px;
-      transition: all 0.6s ease-in-out;
-    }
-    .sButton > button {
-      font-weight: 200;
-      color: #eeeeee;
-      background-color: transparent;
-      border: white solid 2px;
-      height: 50px;
-      width: 300px;
-      float: left;
-      margin-left: 500px;
-      border-radius: 3px;
-      margin-top: -50px;
-    }
-    .second {
-      width: 100%;
-      height: 360px;
-      background-color: rgb(24, 24, 24);
-      border-top: solid black 4px;
-    }
-    .review {
-      width: 30%;
-      height: 100%;
-
-      margin-left: 40px;
-      margin-top: 40px;
-      float: left;
-    }
-    .desc {
-      width: 60%;
-      height: 100%;
-      float: left;
-      margin-left: 5%;
-      margin-top: 40px;
-    }
-    .left {
-      color: white;
-    }
-    .star {
-      float: right;
-      color: gold;
-      margin-top: -30px;
-    }
-    .right {
-      float: right;
-      color: white;
-      margin-top: -30px;
-      padding-right: 10px;
-    }
-    .desc > span {
-      color: white;
-      margin-right: 30px;
-    }
-    .last {
-      background-color: rgb(24, 24, 24);
-      text-align: center;
-      margin-top: 0px;
-      border-top: solid black 4px;
-    }
-
-    .abutton {
-      font-family: sans-serif;
-      font-weight: 700;
-      font-size: 14px;
-      line-height: 1.1;
-      padding: 15px 30px;
-      white-space: normal;
-      border-radius: 2px;
-      color: #fff;
-      background: #ec008c;
-
-      text-align: center;
-      text-decoration: none;
-      display: inline-block;
-      transition: box-shadow 0.3s ease-in-out;
-      margin: 0 0 20px;
-      letter-spacing: 1px;
-      text-transform: uppercase;
-    }
-    .content {
-      position: relative;
-    }
-  </style>
-  <body>
+  <body id="body">
     <div id="nav_bar">
       <div id="left_nav_bar">
         <img
@@ -439,214 +302,401 @@
       </div>
     </div>
 
-    <div id="container">
-      <div class="bgImg">
-        <div class="textPart">
-          <h1>Postman Fundamentals</h1>
-          <div>
-            <h5>
-              <span style="margin-right: 10px">
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span style="color: white" class="fa fa-star-half-o"></span>
-              </span>
-              <span style="color: white"> By </span>
-
-              <a style="color: white" href=""> Nate Taylor </a>
-            </h5>
-          </div>
-          <div class="text-content">
-            Postman is used by over 3 million developers across the world. This
-            course will show you the fundamentals of Postman, how you can issue
-            requests, create automated API tests, and even document your API
-            with Postman.
-          </div>
-        </div>
-        <div class="button">
-          <div class="fButton">
-            <button
-              onclick="window.location.href='free_trial.html'"
-              style="cursor: pointer; float: left"
-            >
-              START A FREE 10-DAY TRIAL
-            </button>
-          </div>
-          <div class="sButton">
-            <button style="cursor: pointer">PLAY COURSE OVERVIEW</button>
-          </div>
-        </div>
+    <div class="c_mid_box">
+      <div>
+        <img
+          src="https://www.pluralsight.com/content/dam/pluralsight2/product/v2/logos/logo-skills.png"
+          alt=""
+        />
       </div>
-      <div class="second">
-        <div class="review">
-          <div class="courseInfo">
-            <span> <h4 style="color: white">Course info</h4></span>
-            <div class="left">
-              <p>Rating</p>
-            </div>
-            <div class="star">
-              <span class="fa fa-star"></span>
-              <span class="fa fa-star"></span>
-              <span class="fa fa-star"></span>
-              <span class="fa fa-star"></span>
-              <span class="fa fa-star checked"></span>
-            </div>
-            <hr style="height: 2px; background-color: black; border: none" />
-            <div>
-              <div class="left">
-                <p>Level</p>
-              </div>
-              <div class="right">
-                Beginner
-                <img
-                  width="10px"
-                  height="9px"
-                  src="https://www.pluralsight.com/etc/clientlibs/pluralsight/main/images/course/level.png"
-                  alt=""
-                />
-              </div>
-              <hr style="height: 2px; background-color: black; border: none" />
-            </div>
-            <div>
-              <div class="left">
-                <p>Updated</p>
-              </div>
-              <div class="right">
-                Jul 22, 2021
-                <img
-                  width="10px"
-                  height="9px"
-                  src="https://www.pluralsight.com/etc/clientlibs/pluralsight/main/images/course/calendar.png"
-                  alt=""
-                />
-              </div>
-              <hr style="height: 2px; background-color: black; border: none" />
-            </div>
-            <div>
-              <div class="left">
-                <p>Duration</p>
-              </div>
-              <div class="right">
-                59m
-                <img
-                  width="10px"
-                  height="9px"
-                  src="	https://www.pluralsight.com/etc/clientlibs/pluralsight/main/images/course/clock.png"
-                  alt=""
-                />
-              </div>
-            </div>
+      <div>
+        <p>Thousands of courses authored by our network of industry experts</p>
+      </div>
+    </div>
+    <!-- this is  slide part -->
+    <div
+      style="
+        width: 100%;
+        height: 1px;
+        background-color: rgb(170, 170, 170);
+        margin: auto;
+      "
+    ></div>
+    <div class="slider_box">
+      <div class="slider" id="slider">
+        <div class="slide" id="slide">
+          <div class="item" id="product1" onclick="window.location.href='course.html'">
+              <img src="https://pluralsight.imgix.net/course-images/industrial-iot-google-cloud-1-v1.png?h=180&w=320" alt="" />
+            <div>Postman Fundamental</div>
+            <p>by Nate Tayion</p>
+            <span>2h 29m</span
+            ><span
+              >Beginner
+              <img
+                src="https://www.pluralsight.com/etc/clientlibs/pluralsight/main/images/course/level.png"
+                alt=""
+            /></span>
+          </div>
+          <div class="item" onclick="window.location.href='course.html'">
+            <img
+              src="https://pluralsight.imgix.net/course-images/ng-conf-2021-session-32-part-2-v1.jpg?h=180&w=320"
+              alt=""
+            />
+            <div>Postman Fundamental</div>
+            <p>by Nate Tayion</p>
+            <span>2h 29m</span
+            ><span
+              >Beginner
+              <img
+                src="https://www.pluralsight.com/etc/clientlibs/pluralsight/main/images/course/level.png"
+                alt=""
+            /></span>
+          </div>
+          <div class="item" onclick="window.location.href='course.html'">
+            <img
+              src="https://pluralsight.imgix.net/course-images/ng-conf-2021-session-36-part-1-v1.jpg?h=180&w=320"
+              alt=""
+            />
+            <div>Postman Fundamental</div>
+            <p>by Nate Tayion</p>
+            <span>2h 29m</span
+            ><span
+              >Beginner
+              <img
+                src="https://www.pluralsight.com/etc/clientlibs/pluralsight/main/images/course/level.png"
+                alt=""
+            /></span>
+          </div>
+          <div class="item" onclick="window.location.href='course.html'">
+            <img
+              src="https://pluralsight.imgix.net/course-images/docker-developing-go-apps-v1.jpg?h=180&w=320"
+              alt=""
+            />
+            <div>Postman Fundamental</div>
+            <p>by Nate Tayion</p>
+            <span>2h 29m</span
+            ><span
+              >Beginner
+              <img
+                src="https://www.pluralsight.com/etc/clientlibs/pluralsight/main/images/course/level.png"
+                alt=""
+            /></span>
+          </div>
+          <div class="item" onclick="window.location.href='course.html'">
+            <img
+              src="https://pluralsight.imgix.net/course-images/audience/software-development.jpg?h=180&w=320"
+              alt=""
+            />
+            <div>Postman Fundamental</div>
+            <p>by Nate Tayion</p>
+            <span>2h 29m</span
+            ><span
+              >Beginner
+              <img
+                src="https://www.pluralsight.com/etc/clientlibs/pluralsight/main/images/course/level.png"
+                alt=""
+            /></span>
+          </div>
+
+          <div class="item" onclick="window.location.href='course.html'">
+            <img
+              src="https://pluralsight.imgix.net/course-images/ng-conf-2021-session-32-part-2-v1.jpg?h=180&w=320"
+              alt=""
+            />
+            <div>Postman Fundamental</div>
+            <p>by Nate Tayion</p>
+            <span>2h 29m</span
+            ><span
+              >Beginner
+              <img
+                src="https://www.pluralsight.com/etc/clientlibs/pluralsight/main/images/course/level.png"
+                alt=""
+            /></span>
+          </div>
+          <div class="item" onclick="window.location.href='course.html'">
+            <img
+              src="https://pluralsight.imgix.net/course-images/audience/software-development.jpg?h=180&w=320"
+              alt=""
+            />
+            <div>Postman Fundamental</div>
+            <p>by Nate Tayion</p>
+            <span>2h 29m</span
+            ><span
+              >Beginner
+              <img
+                src="https://www.pluralsight.com/etc/clientlibs/pluralsight/main/images/course/level.png"
+                alt=""
+            /></span>
+          </div>
+          <div class="item" onclick="window.location.href='course.html'">
+            <img
+              src="https://pluralsight.imgix.net/course-images/docker-developing-go-apps-v1.jpg?h=180&w=320"
+              alt=""
+            />
+            <div onclick="course.html">Postman Fundamental</div>
+            <p onclick="course.html">by Nate Tayion</p>
+            <span>2h 29m</span
+            ><span
+              >Beginner
+              <img
+                src="https://www.pluralsight.com/etc/clientlibs/pluralsight/main/images/course/level.png"
+                alt="" onclick="course.html"
+            /></span>
+          </div>
+          <div class="item" onclick="window.location.href='course.html'">
+            <img
+              src="https://pluralsight.imgix.net/course-images/audience/software-development.jpg?h=180&w=320"
+              alt=""
+            />
+            <div>Postman Fundamental</div>
+            <p>by Nate Tayion</p>
+            <span>2h 29m</span
+            ><span
+              >Beginner
+              <img
+                src="https://www.pluralsight.com/etc/clientlibs/pluralsight/main/images/course/level.png"
+                alt=""
+            /></span>
+          </div>
+          <div class="item" onclick="window.location.href='course.html'">
+            <img
+              src="http://via.placeholder.com/200x200?text=Product1"
+              alt=""
+            />
+          </div>
+          <div class="item" onclick="window.location.href='course.html'">
+            <img
+              src="http://via.placeholder.com/200x200?text=Product1"
+              alt=""
+            />
+          </div>
+
+          <div class="item">
+            <img
+              src="http://via.placeholder.com/200x200?text=Product1"
+              alt=""
+            />
+          </div>
+          <div class="item">
+            <img
+              src="http://via.placeholder.com/200x200?text=Product1"
+              alt=""
+            />
+          </div>
+          <div class="item">
+            <img
+              src="http://via.placeholder.com/200x200?text=Product1"
+              alt=""
+            />
           </div>
         </div>
-        <div class="desc">
-          <h4 style="color: white">Description</h4>
-          <p
+        <button class="ctrl-btn pro-prev">
+          <i
+            onclick="sarch_sarch()"
+            class="material-icons"
             style="
               color: white;
-              font-size: 15px;
-              font-family: sans-serif;
-              line-height: 1.5;
+              margin-left: 15px;
+              border-left: 1px solid rgb(194, 194, 194);
+              margin-top: 15px;
+              border-radius: 5%;
             "
+            >arrow_back_ios</i
           >
-            Understanding the new California Consumer Privacy Act (CCPA) that
-            has begun being enforced in July 2020 is essential to avoid heavy
-            penalties and fines when it comes to the data privacy of California
-            Citizens. In this course, Data Privacy Under the California Consumer
-            Privacy Act, you will learn what the CCPA entails for both
-            businesses and consumers. First, you’ll learn what data is covered
-            and who is affected by this new law. Next, you’ll discover the
-            required notices and steps if there is a data breach. Finally,
-            you’ll learn what rights California citizens have over their
-            personal data. When you’re finished with this course, you’ll have
-            the skills and knowledge of the California Consumer Privacy Act
-            needed to know your rights and be compliant with this groundbreaking
-            law.
-          </p>
-        </div>
-      </div>
-      <div class="second">
-        <div style="text-align: center" class="review">
-          <img
-            style="border-radius: 50%"
-            src="https://pluralsight.imgix.net/author/lg/2428625b-5ff5-432d-a0c6-f8cba3a76008.JPG?w=100"
-            alt=""
-          />
-          <h3 style="color: white">Shaila Rana</h3>
-        </div>
-        <div class="desc">
-          <h4 style="color: white; margin-top: -30px">About the author</h4>
-          <p style="color: white">Founder & Security Educator at CyberSecure</p>
-          <br />
-          <h2
+        </button>
+        <button class="ctrl-btn pro-next">
+          <i
+            onclick="sarch_sarch()"
+            class="material-icons"
             style="
               color: white;
-              font-size: 15px;
-              font-family: sans-serif;
-              line-height: 1.5;
+              margin-left: 15px;
+              border-left: 1px solid rgb(194, 194, 194);
+              margin-top: 15px;
             "
+            >arrow_forward_ios</i
           >
-            Founder & Security Educator at CyberSecure
-          </h2>
-          <hr style="height: 1px; background-color: black; border: none" />
-          <h4 style="color: white">
-            Performing Threat Modeling with the OVTAVE Methodoogy
-          </h4>
-          <span> Intermediate </span> <span> 1h 15m </span>
-          <span> Aug 26, 2020 </span>
-        </div>
+        </button>
       </div>
-      <div class="second">
-        <div style="text-align: center" class="review"></div>
-        <div class="desc">
-          <h4 style="color: white; margin-top: -80px">
-            Section Introduction Transcripts
-          </h4>
-          <span style="color: white">Course Overview</span>
-          <p style="color: white; margin-top: 5px">
-            [Autogenerated] Hi everyone. My name is Sheila Rana and I'm the
-            founder of Cyber Secure a security training and awareness consulting
-            firm. Welcome to my course Security governance C. C. P. A. Are you a
-            California citizen or do you work for a business that has to be
-            compliant with the CCP A. If you do then this is definitely the
-            course for you. Some of the major topics that we will cover include
-            data rights, how to exercise those rights and penalties of
-            noncompliance. In this course you will learn who is affected what
-            data is affected by this privacy law and the rights of a California
-            consumer. Next you'll learn about the differences between the CCP A.
-            And G. D. P. R. We'll also talk about Prop 24 which just passed in
-            November 2020. Then you'll learn about required notices businesses
-            have to provide. And then finally you'll learn how California
-            consumers can exercise their data rights and the penalties of
-            noncompliance for businesses that are subject to comply with the CCP
-            A. By the end of this course, you'll understand data rights,
-            required notices and penalties of noncompliance. As of January 1,
-            2020, the California Consumer Privacy Act went into effect.
-            Organizations that utilize and harvest consumer information now have
-            to conduct business in a different way to remain compliant. Citizens
-            of California also must understand their rights and protect their
-            data. I hope you'll join me in this journey to learn about data
-            privacy under the California Consumer Privacy Act.
-          </p>
+    </div>
+
+    <!-- courses -->
+    <h2 id="browse">Browse</h2>
+    <input
+      type="text"
+      name=""
+      placeholder="What do you want to learn?"
+      id="sarch_box"
+    />
+    <div id="sarch_box_1">
+      <i
+        onclick="cut_sarch()"
+        class="material-icons"
+        style="
+          color: white;
+          margin-top: 15px;
+          background-color: rgb(65, 65, 65);
+        "
+        >close</i
+      >
+      <i
+        onclick="sarch_sarch()"
+        class="material-icons"
+        style="
+          color: white;
+          margin-left: 15px;
+          border-left: 1px solid rgb(194, 194, 194);
+          padding-left: 19px;
+          margin-top: 15px;
+          background-color: rgb(65, 65, 65);
+        "
+        >search</i
+      >
+    </div>
+    <div id="sort_box" onclick="sort_drop_down()">Sort by</div>
+    <div id="sort_drop_down_id">
+      <i
+        onclick="sort_drop_down_cut()"
+        class="material-icons"
+        ;
+        style="
+          color: white;
+          margin-top: 15px;
+          float: right;
+          background-color: rgb(46, 46, 46);
+          margin-top: 0px;
+        "
+        >close</i
+      >
+      <ul>
+        <li style="margin-top: 30px" onclick="sortupper()">Highest rated</li>
+
+        <li onclick="sortupper_wirth()">Course wirth</li>
+        <li></li>
+      </ul>
+    </div>
+    <div id="courses_box" style="width: 100%; display: flex">
+      <h1 id="not_available">sdfss</h1>
+      <div
+        style="
+          width: 35%;
+          height: 100%;
+          background-color: rgb(0, 0, 0);
+          float: left;
+        "
+      >
+        <div id="right_sort_bar">
+          <p>Skill level</p>
+          <label class="container"
+            >Beginner
+            <input
+              onclick="sort_mid('Beginner')"
+              type="radio"
+              name="radio"
+              value="Beginner"
+            />
+            <span class="checkmark"></span>
+          </label>
+          <label class="container"
+            >Intermediate
+            <input
+              onclick="sort_mid('Intermediate')"
+              type="radio"
+              name="radio"
+            />
+            <span class="checkmark"></span>
+          </label>
+          <label class="container"
+            >Advanced
+            <input onclick="sort_mid('Advanced')" type="radio" name="radio" />
+            <span class="checkmark"></span>
+          </label>
+        </div>
+        <div id="right_sort_bar" style="height: 400px">
+          <p>Subject</p>
+          <label class="container"
+            >Business professional
+            <input
+              onclick="sort_mid_name('Business professional')"
+              type="radio"
+              name="radio"
+              value="Beginner"
+            />
+            <span class="checkmark"></span>
+          </label>
+          <label class="container"
+            >Data professional
+            <input
+              onclick="sort_mid_name('Data professional')"
+              type="radio"
+              name="radio"
+            />
+            <span class="checkmark"></span>
+          </label>
+          <label class="container"
+            >It ops
+            <input
+              onclick="sort_mid_name('It ops')"
+              type="radio"
+              name="radio"
+            />
+            <span class="checkmark"></span>
+          </label>
+          <label class="container"
+            >Information & cyber security
+            <input
+              onclick="sort_mid_name('Information & cyber security')"
+              type="radio"
+              name="radio"
+              value="Beginner"
+            />
+            <span class="checkmark"></span>
+          </label>
+
+          <label class="container"
+            >Manufacturing & design
+            <input
+              onclick="sort_mid_name('Manufacturing & design')"
+              type="radio"
+              name="radio"
+              value="Beginner"
+            />
+            <span class="checkmark"></span>
+          </label>
+
+          <label class="container"
+            >Software development
+            <input
+              onclick="sort_mid_name('Software development')"
+              type="radio"
+              name="radio"
+              value="Beginner"
+            />
+            <span class="checkmark"></span>
+          </label>
+
+          <label class="container"
+            >Web development
+            <input
+              onclick="sort_mid_name('Web development')"
+              type="radio"
+              name="radio"
+              value="Beginner"
+            />
+            <span class="checkmark"></span>
+          </label>
         </div>
       </div>
 
-      <div class="last">
-        <div class="content">
-          <h1 style="color: white; margin-top: -200px">
-            Push the limits of what's possible. Today.
-          </h1>
-          <div class="lButton">
-            <a
-              style="margin-bottom: 80px"
-              ;
-              class="abutton"
-              href="free_trial.html"
-              >START A FREE 10-DAY TRIAL</a
-            >
-          </div>
-        </div>
-      </div>
+      <div
+        id="coures_view"
+        style="
+          width: 65%;
+          float: left;
+          height: 100%;
+          background-color: rgb(0, 0, 0);
+        "
+      ></div>
     </div>
 
     <div class="footer">
@@ -766,3 +816,4 @@
     </div>
   </body>
 </html>
+<script src="../js/courses.js"></script>
