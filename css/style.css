@@ -3,16 +3,16 @@
   font-family: sans-serif;
 }
 body {
-  background-color: black;
+  background-color: rgb(0, 0, 0);
   margin: 0px;
   padding: 0px;
 }
 #h_box {
-  background-color: white;
+  background-color: rgb(122, 0, 0);
   background-image: url(https://www.pluralsight.com/content/pluralsight/en/jcr:content/main/generic_block_copy_c_1058486430/image-res.img.3716d16d-f7af-4e66-9052-9a1a90108cf3.jpg);
   width: 100%;
   height: 500px;
-  margin-top: 80px;
+  margin-top: 85px;
   background-position: center center;
   background-size: cover;
 }
@@ -54,7 +54,7 @@ body {
 }
 #h_box_1 span {
   height: 25%;
-  width: 20%;
+  width: 30%;
   margin-top: 3%;
   cursor: auto;
   font-size: 50px;
@@ -62,10 +62,11 @@ body {
   font-weight: bold;
   background: repeat;
   float: left;
-  transition: 6.9s;
+
   margin-left: 1px;
   font-family: "Noto Sans JP", sans-serif;
 }
+
 #h_box_1_2 {
   height: 45%;
   width: 100%;
@@ -138,11 +139,11 @@ body {
 }
 #nav_bar {
   padding: 26px 0px;
-  height: 100px;
+  height: 83px;
   width: 100%;
   background-color: #212121;
   position: fixed;
-  box-shadow: 1px 1px 1px 1px #242424;
+  box-shadow: 1px 1px 2px 2px #242424;
 }
 #margin {
   background-color: white;
@@ -264,7 +265,7 @@ body {
   font-weight: 600;
   font-size: 13px;
   height: 40px;
-  margin-top: 10px;
+  margin-top: 3px;
   float: left;
 }
 .mid_box {
@@ -341,7 +342,7 @@ body {
 #right_mid_box {
   height: 70%;
   margin-top: 8%;
-  width: 42%;
+  width: 43%;
   float: left;
   background-color: black;
 }
@@ -417,7 +418,7 @@ h3 {
   overflow: hidden;
 }
 .mdiv2 {
-  width: 45%;
+  width: 50%;
 }
 .mdiv1 > div {
   padding: 20px;
@@ -549,7 +550,7 @@ button {
   background-color: black;
   color: white;
   height: 60px;
-  width: 300px;
+  width: 50%;
   outline: none;
   border: none;
   font-size: medium;
@@ -566,12 +567,13 @@ button:hover {
   font-family: "Secular One", sans-serif;
 }
 body {
-  background-color: black;
+  background-color: rgb(0, 0, 0);
   margin: 0px;
   padding: 0px;
 }
 .main-container {
-  background-color: black;
+  background-color: rgb(0, 0, 0);
+  width: 100%;
 }
 #impact_books {
   /* background-color: black; */
@@ -626,7 +628,9 @@ body {
 .button {
   background-color: transparent;
   margin-bottom: 50px;
-  margin-left: 2.5%;
+  width: 35%;
+ 
+  margin-left: 1%;
   font-family: "Secular One", sans-serif;
 }
 .button1 {
@@ -634,6 +638,7 @@ body {
   background: linear-gradient(145deg, #f05a28 0, #ec008c 100%);
   margin: 0px 20px 20px 0px;
   border: 0px;
+  width: 100%;
   border-radius: 5px;
   font-size: 15px;
   font-weight: 600;
@@ -657,6 +662,7 @@ body {
   display: flex;
   color: white;
   padding: 60px;
+  width: 100%;
 }
 .insights > .desc {
   background-color: transparent;
@@ -669,28 +675,32 @@ body {
 .footer {
   background-color: #222222;
   padding-bottom: 50px;
+  width: 100%;
 }
 .footer-container {
-  background-color: #222222;
+  background-color: #181818;
   display: flex;
+  width: 100%;
   flex-direction: row;
   color: whitesmoke;
 }
 .footer-container > div {
   margin: 5% 5% 0px 5%;
+  width: 10%;
 }
 .footer-head {
   font-size: 13px;
-  font-weight: 700;
+
+  /* font-weight: 700;  */
 }
 .footer-head + div {
-  width: 150px;
+  width: 210%;
   margin-top: 30px;
   margin-bottom: 50px;
 }
 .footer-container > div div a {
   letter-spacing: normal;
-  font-size: 14px;
+  font-size: 70%;
   line-height: 40px;
   padding: 20px 0;
   color: #7c7c7d;
@@ -1634,4 +1644,118 @@ tr > td > img {
   padding: 0px;
   float: left;
   background-color: rgb(10, 9, 9);
+}
+@media (max-width: 730px) {
+  #mid_nav_bar,
+  #right_nav_bar {
+    display: none;
+  }
+  #left_nav_bar {
+    width: 25%;
+  }
+  #left_nav_bar img {
+    border-radius: 50%;
+    width: 20%;
+    /* height: 80%; */
+    float: left;
+    margin-right: 20px;
+  }
+  #left_nav_bar div {
+    margin-left: 50px;
+  }
+  .mid_box {
+    height: 910px;
+   
+  }
+  .left_mid_box {
+    width: 100%;
+    height: 90%;
+    overflow: hidden;
+    clear: both;
+  }
+  #right_mid_box {
+    width: 100%;
+    padding-left: 3%;
+    height: 500px;
+    clear: both;
+    margin-top: 0px;
+  }
+  .left_mid_box_1 img {
+    clear: right;
+    width: 20%;
+
+    height: 30%;
+    background-color: #212121;
+  }
+  .largeMid {
+    display: block;
+  
+   
+  }
+  .left_mid_box_1 {
+    width: 93%;
+    height: 23%;
+  }
+  .mdiv1 {
+    width: 90%;
+    margin-bottom: 30px;
+  border-radius: 10px;
+  }
+  .mdiv2 {
+    float: none;
+    width: 50%;
+  }
+  .colmid {
+    display: grid;
+    margin-top: 25px;
+    margin-bottom: 80px;
+    grid-template-columns: 100%;
+  }
+
+  .eachSlide {
+    display: grid;
+    grid-template-columns: 100%;
+  }
+  #h_box_1_1 {
+    width: 70%;
+    
+    font-size: 230%;
+    margin-left:45%;
+    text-align: center;
+    float: left;
+  }
+  #slidshow {
+    font-size: 9px;
+  }
+  #h_box_1 {
+    width: 80%;
+  }
+  #h_box {
+    background-color: rgb(122, 0, 0);
+    background-image: url(https://www.pluralsight.com/content/pluralsight/en/jcr:content/main/generic_block_copy_c_1058486430/image-res.img.3716d16d-f7af-4e66-9052-9a1a90108cf3.jpg);
+    width: 100%;
+    height: 500px;
+    margin-top: 85px;
+    background-position: right ;
+    
+  }
+  #h_box_1 span {
+    width: 80%;
+    margin-top: -30px;
+    margin-left: 50%;
+   
+  }
+  #h_box_1_2{
+    margin-left: 50%;
+  }
+  .carousel-cell {
+    width: 85%;
+    height: 230px;
+  }
+ .copyright-content{
+   display: none;
+ }
+ .footer-container{
+   display: none;
+ }
 }
