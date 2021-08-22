@@ -1,5 +1,5 @@
 ---
-# Pluralsight Clone 8-)
+# Pluralsight Clone :sunglasses:
 ---
 
 ### Team Members
